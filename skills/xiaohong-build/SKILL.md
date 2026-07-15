@@ -2,7 +2,8 @@
 name: xiaohong-build
 description: |
   Build xiaohong (OpenHarmony mini system for WS63 chip) firmware on Huawei Cloud ECS with full automation. Provisions on-demand ECS instance, installs build dependencies, downloads source code, configures RISC-V toolchain, and compiles firmware (.fwpkg). Use this skill when users want to build or compile xiaohong, set up OpenHarmony mini system build environment, or create cloud build machine for WS63 chip development. Trigger conditions: "编译xiaohong", "构建xiaohong", "build xiaohong", "compile xiaohong", "OpenHarmony编译", "WS63开发", "liteos_m编译", "mini系统构建", "xiaohong固件", "xiaohong firmware", "WS63固件编译".
-tags: [huawei-cloud, ecs, xiaohong, openharmony, build, compile, firmware, ws63, liteos-m, risc-v]
+metadata:
+  tags: "huawei-cloud, ecs, xiaohong, openharmony, build, compile, firmware, ws63, liteos-m, risc-v"
 ---
 
 # xiaohong Build Skill
